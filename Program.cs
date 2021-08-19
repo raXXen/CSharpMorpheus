@@ -15,6 +15,7 @@ namespace CSharpMorpheus
             Console.ReadKey();
 
             Klasse uni = new Klasse(); //Mit dem Konstruktor aus Klasse.cs
+            uni.Zeichenkette = "Hallo Welt";
         }
 
         //Rekursiv, Methode ruft sich selbst innerhalb der Methode auf
